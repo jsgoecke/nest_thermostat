@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.md",
     "Rakefile",
@@ -27,6 +28,7 @@ Gem::Specification.new do |s|
     "lib/nest_thermostat.rb",
     "lib/nest_thermostat/nest_thermostat.rb",
     "lib/nest_thermostat/version.rb",
+    "nest_thermostat.gemspec",
     "spec/nest_thermostat_spec.rb",
     "spec/spec_helper.rb"
   ]
@@ -48,6 +50,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bundler>, [">= 1.0.0"])
       s.add_development_dependency(%q<jeweler>, [">= 1.8.4"])
       s.add_development_dependency(%q<simplecov>, [">= 0"])
+      s.add_development_dependency(%q<fakeweb>, [">= 0"])
     else
       s.add_dependency(%q<json>, [">= 0"])
       s.add_dependency(%q<faraday>, [">= 0"])
@@ -57,6 +60,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<bundler>, [">= 1.0.0"])
       s.add_dependency(%q<jeweler>, [">= 1.8.4"])
       s.add_dependency(%q<simplecov>, [">= 0"])
+      s.add_dependency(%q<fakeweb>, [">= 0"])
     end
   else
     s.add_dependency(%q<json>, [">= 0"])
@@ -67,6 +71,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<bundler>, [">= 1.0.0"])
     s.add_dependency(%q<jeweler>, [">= 1.8.4"])
     s.add_dependency(%q<simplecov>, [">= 0"])
+    s.add_dependency(%q<fakeweb>, [">= 0"])
   end
 end
 
