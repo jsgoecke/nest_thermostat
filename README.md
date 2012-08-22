@@ -15,7 +15,7 @@ gem install nest_thermostat
 ```ruby
 require 'nest_thermostat'
 
-nest = NestThermostat.new :username => 'foo', :password => 'bar'
+nest = NestThermostat.new :username => 'foo@bar.com', :password => 'foobar'
 
 nest.credentials
 #{"is_superuser"=>false, "is_staff"=>false, "urls"=>{"transport_url"=>"https://25.transport.nest.com:9443", "rubyapi_url"=>"https://home.nest.com/", "weather_url"=>"http://www.wunderground.com/auto/nestlabs/geo/current/i?query="}, "limits"=>{"thermostats_per_structure"=>10, "structures"=>2, "thermostats"=>10}, "access_token"=>"foo", "userid"=>"1234", "expires_in"=>"Fri, 21-Sep-2012 01:08:00 GMT", "email"=>"foo@bar.com", "user"=>"user.1234"}
