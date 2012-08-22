@@ -4,11 +4,9 @@
 
 A Ruby library for controlling the [Nest Thermostat](http://nest.com).
 
-## Installation
+## Deprecated
 
-```
-gem install nest_thermostat
-```
+Deprecated in favor of other [nest_thermostat](https://github.com/ericboehs/nest_thermostat).
 
 ## Usage
 
