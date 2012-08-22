@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
     ".rspec",
     "Gemfile",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
     "lib/nest_thermostat.rb",
